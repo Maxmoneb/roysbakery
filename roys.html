@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roys bakerys</title>
+    <link rel="stylesheet" href="roys.css">
+</head>
+<body bgcolor=" white">
+    <div class="container1">
+        <img src="bg1.jpg" alt="Snow" style="width:100%;">
+        <!-- <div class="bottom-left">Bottom Left</div>
+        <div class="top-left">Top Left</div>
+        <div class="top-right">Top Right</div>
+        <div class="bottom-right">Bottom Right</div> -->
+        <div class="centered">ROYS BAKERY</div>
+      </div>
+    <div class="main-col">
+   <h1>ROYS BAKERY</h1>
+   <H2>we serve love sinces 2004</H2>
+  
+   </div>
+   <center>
+<hr width="40%">
+</center>
+<div class="parent-box">
+<div class="box1">
+<img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/delivery-1600330-1358542.png?f=avif&w=512">
+online-delivery within 5km
+</div>
+<div class="box2">
+<img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/pickup-delivery-box-3543289-2964412.png?f=avif&w=512">
+local pickup
+</div>
+<div class="box3">
+<img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/cooking-392-501587.png?f=avif&w=512">
+freshly made
+</div>
+</div>
+<div class="error"></div>
+<h1>Most Popular Products</h1>
+<div class="parent-cart">
+
+<div class="cart">
+    <img src="https://static.wixstatic.com/media/1ede1f_58fafe42cbef411ea98315e5aea2bb24~mv2.jpg/v1/fill/w_293,h_390,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1ede1f_58fafe42cbef411ea98315e5aea2bb24~mv2.jpg">
+     <br>cake<br>500$
+</div>
+<div class="cart">
+    <img src="https://static.wixstatic.com/media/1ede1f_fac488bcff2d4ca097a120133f72d77a~mv2.jpg/v1/fill/w_293,h_390,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1ede1f_fac488bcff2d4ca097a120133f72d77a~mv2.jpg">
+     <br>cake<br>500$
+</div>
+<div class="cart">
+    <img src="https://static.wixstatic.com/media/1ede1f_58fafe42cbef411ea98315e5aea2bb24~mv2.jpg/v1/fill/w_293,h_390,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1ede1f_58fafe42cbef411ea98315e5aea2bb24~mv2.jpg">
+     <br>cake<br>500$
+</div>
+<div class="cart">
+    <img src="https://static.wixstatic.com/media/1ede1f_58fafe42cbef411ea98315e5aea2bb24~mv2.jpg/v1/fill/w_293,h_390,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1ede1f_58fafe42cbef411ea98315e5aea2bb24~mv2.jpg">
+     <br>cake<br>500$
+</div>
+<div class="cart">
+    <img src="https://static.wixstatic.com/media/1ede1f_fac488bcff2d4ca097a120133f72d77a~mv2.jpg/v1/fill/w_293,h_390,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1ede1f_fac488bcff2d4ca097a120133f72d77a~mv2.jpg">
+     <br>cake<br>500$
+</div>
+<div class="cart">
+    <img src="https://static.wixstatic.com/media/1ede1f_58fafe42cbef411ea98315e5aea2bb24~mv2.jpg/v1/fill/w_293,h_390,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1ede1f_58fafe42cbef411ea98315e5aea2bb24~mv2.jpg">
+     <br>cake<br>500$
+</div>
+
+                            </div>
+                          <h1>  Order Cake Here</h1>
+                            <div class="error"></div>
+            <div class="container">
+                <form action="action_page.php">
+
+                    <label for="product">product</label>
+                    <select id="product1" name="product">
+                        <option value="none">none</option>
+                      <option value="black forest">black forest</option>
+                      <option value="white forest">white forest</option>
+                      <option value="red velet">red velet</option>
+                    </select>
+<br>
+                    <label for="product">product</label>
+                    <select id="product2" name="product">
+                        <option value="none">none</option>
+                      <option value="black forest 1/2kg">black forest 1/2kg</option>
+                      <option value="white forest 1/2k">white forest 1/2kg</option>
+                      <option value="red velet 1/2kg">red velet 1/2kg</option>
+                    </select>
+      <br>        
+                  <label for="fname"> Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+         <br>     
+                  <label for="lname">CONTACT</label>
+                  <input type="text" id="contact" name="lastname" placeholder="contact number..">
+<br>
+                
+                  <label for="lname">LOACTION</label>
+                  <input type="text" id="loaction" name="loaction" placeholder="loaction deatils..">
+                  <br>
+                  <label for="date">date of delivery:</label>
+                  <input type="date" id="date" name="date">
+                 
+         <br>     
+                  
+              
+                  <label for="subject"></label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              <BR>
+                  <input 
+                  type="submit" 
+                  name="order"
+                  onclick="whatsapp()"
+                  value="order">
+              
+                </form>
+              </div>
+              <h1>Other Products</h1>
+              <div class="parent-cart">
+
+                <div class="cart">
+                    <img src="https://static.wixstatic.com/media/1ede1f_fe354232c03a442c8c3b7da865bb7e7c~mv2.jpg/v1/fill/w_276,h_368,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1ede1f_fe354232c03a442c8c3b7da865bb7e7c~mv2.jpg">
+                     <br>puffs<br>500$
+                </div>
+                <div class="cart">
+                    <img src="https://static.wixstatic.com/media/1ede1f_2ef6341a6db441b78b65ef1fbefea677~mv2.jpg/v1/fill/w_276,h_368,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1ede1f_2ef6341a6db441b78b65ef1fbefea677~mv2.jpg">
+                     <br>puffs<br>500$
+                </div>
+                <div class="cart">
+                    <img src="https://static.wixstatic.com/media/1ede1f_fe354232c03a442c8c3b7da865bb7e7c~mv2.jpg/v1/fill/w_276,h_368,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1ede1f_fe354232c03a442c8c3b7da865bb7e7c~mv2.jpg">
+                     <br>puffs<br>500$
+                </div>
+                <div class="cart">
+                    <img src="https://static.wixstatic.com/media/1ede1f_2ef6341a6db441b78b65ef1fbefea677~mv2.jpg/v1/fill/w_276,h_368,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1ede1f_2ef6341a6db441b78b65ef1fbefea677~mv2.jpg">
+                     <br>puffs<br>500$
+                </div>
+                
+                <div class="cart">
+                    <img src="https://static.wixstatic.com/media/1ede1f_fe354232c03a442c8c3b7da865bb7e7c~mv2.jpg/v1/fill/w_276,h_368,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1ede1f_fe354232c03a442c8c3b7da865bb7e7c~mv2.jpg">
+                     <br>puffs<br>500$
+                </div>
+                <div class="cart">
+                    <img src="https://static.wixstatic.com/media/1ede1f_2ef6341a6db441b78b65ef1fbefea677~mv2.jpg/v1/fill/w_276,h_368,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1ede1f_2ef6341a6db441b78b65ef1fbefea677~mv2.jpg">
+                     <br>puffs<br>500$
+                </div>
+                
+                <div class="cart">
+                    <img src="https://static.wixstatic.com/media/1ede1f_fe354232c03a442c8c3b7da865bb7e7c~mv2.jpg/v1/fill/w_276,h_368,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1ede1f_fe354232c03a442c8c3b7da865bb7e7c~mv2.jpg">
+                     <br>puffs<br>500$
+                </div>
+                <div class="cart">
+                    <img src="https://static.wixstatic.com/media/1ede1f_2ef6341a6db441b78b65ef1fbefea677~mv2.jpg/v1/fill/w_276,h_368,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1ede1f_2ef6341a6db441b78b65ef1fbefea677~mv2.jpg">
+                     <br>puffs<br>500$
+                </div>
+                
+                
+</div>   
+<div class="error"></div>
+<h1>Order Here</h1>
+<div class="container">
+    <form action="action_page.php">
+
+        <label for="product">product</label>
+        <select id="product1" name="product">
+            <option value="none">none</option>
+          <option value="black forest">black forest</option>
+          <option value="white forest">white forest</option>
+          <option value="red velet">red velet</option>
+        </select>
+<br>
+        <label for="product">product</label>
+        <select id="product2" name="product">
+            <option value="none">none</option>
+          <option value="black forest 1/2kg">black forest 1/2kg</option>
+          <option value="white forest 1/2k">white forest 1/2kg</option>
+          <option value="red velet 1/2kg">red velet 1/2kg</option>
+        </select>
+<br>        
+      <label for="fname"> Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+<br>     
+      <label for="lname">CONTACT</label>
+      <input type="text" id="contact" name="lastname" placeholder="contact number..">
+<br>
+    
+      <label for="lname">LOACTION</label>
+      <input type="text" id="loaction" name="loaction" placeholder="loaction deatils..">
+      <br>
+      <label for="date">date of delivery:</label>
+      <input type="date" id="date" name="date">
+     
+<br>     
+      
+  
+      <label for="subject"></label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  <BR>
+      <input 
+      type="submit" 
+      name="order"
+      onclick="whatsapp()"
+      value="order">
+  
+    </form>
+  </div>   
+  <h1>contact us</h1>
+  <center>
+  <h2>
+  roys bakery<br>
+  kodakara p.o <br>
+  ph:7545675456         
+</h2>
+</center>
+<hr>
+<center>
+all right@roys bakery <br>
+powered by benwebhub
+</center>
+    <script src="app.js"></script>
+</body>
+</html>
